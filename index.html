@@ -106,7 +106,7 @@ function render(){
       out+="</li>";
     });
     out+="</ol>";
-    out+='<div class="note"><span class="k">Votre note</span><textarea data-key="'+esc(key)+'" placeholder="Ce que vous voulez retenir ou réutiliser en mission"></textarea></div>';
+    out+='<div class="note"><span class="k">Votre note</span><textarea data-key="'+esc(key)+'" placeholder="Ce que vous voulez retenir"></textarea></div>';
     out+="</article>";
   });
   host.innerHTML=out||'<p class="empty">Aucun titre ne correspond à ce filtre.</p>';
