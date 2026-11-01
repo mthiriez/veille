@@ -49,7 +49,7 @@ footer{border-top:1px solid var(--line);padding:22px;color:var(--muted);font-siz
 const RUBS = ["Commerce","Retail media","Mobilité","IA"];
 let EDITIONS = [];
 let filtre = "Tout", q = "";
-fetch("editions.json").then(r=>r.json()).then(d=>{EDITIONS=d.editions||[];renderChips();render();}).catch(()=>{document.getElementById("editions").innerHTML='<p class="empty">La veille arrive.</p>';});
+fetch("editions.json?v="+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(d=>{EDITIONS=d.editions||[];renderChips();render();}).catch(()=>{document.getElementById("editions").innerHTML='<p class="empty">La veille arrive.</p>';});
 function renderChips(){
   const c = document.getElementById("chips"); c.innerHTML="";
   ["Tout",...RUBS].forEach(r=>{
