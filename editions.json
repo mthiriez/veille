@@ -1,0 +1,94 @@
+{
+ "editions": [
+  {
+   "label": "Édition du 2 novembre 2026",
+   "note": "Édition de lancement : les faits marquants de la semaine du 23 au 30 octobre. Les éditions suivantes couvrent les dernières 24 à 48 heures.",
+   "items": [
+    {
+     "rubrique": "Commerce",
+     "heure": "23/10",
+     "titre": "Coopérative U confie la commercialisation de ses inventaires digitaux à Unlimitail",
+     "resume": "L'enseigne externalise son retail media à un acteur spécialisé, signe d'industrialisation du marché français.",
+     "url": "https://www.unlimitail.com/news/cooperative-u-chooses-unlimitail-frances-leading-omnichannel-retail-media-player"
+    },
+    {
+     "rubrique": "Commerce",
+     "heure": "23/10",
+     "titre": "Shein accepte de payer 100 millions de dollars pour clore une enquête de la FTC",
+     "resume": "L'accord porte sur des retards de livraison et des pratiques commerciales contestées aux États-Unis.",
+     "url": "https://www.techmeme.com/261023/p11#a261023p11"
+    },
+    {
+     "rubrique": "Commerce",
+     "heure": "29/10",
+     "titre": "La FTC interroge neuf entreprises, dont Delta et Uber, sur la tarification personnalisée",
+     "resume": "Le régulateur veut comprendre comment les données clients alimentent les prix et les compensations.",
+     "url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-launches-personalized-pricing-compensation-inquiry"
+    },
+    {
+     "rubrique": "Retail media",
+     "heure": "30/10",
+     "titre": "Les recettes publicitaires d'Amazon approchent 20 milliards de dollars au troisième trimestre",
+     "resume": "Amazon mise sur l'IA agentique pour accélérer la croissance de son activité publicitaire.",
+     "url": "https://digiday.com/media-buying/amazons-ads-nears-20-billion-in-q3-as-it-bets-on-agentic-ai-to-fuel-further-growth/"
+    },
+    {
+     "rubrique": "Retail media",
+     "heure": "28/10",
+     "titre": "Apple déploie son nouveau dispositif ATT dans plusieurs pays, dont la France",
+     "resume": "Le consentement au suivi publicitaire change de mécanique, avec des conséquences directes sur la mesure des campagnes.",
+     "url": "https://www.mind.eu.com/media/article/apple-deploie-son-nouveau-dispositif-att-dans-plusieurs-pays-dont-la-france/"
+    },
+    {
+     "rubrique": "Retail media",
+     "heure": "26/10",
+     "titre": "Pinterest ouvre son inventaire aux acheteurs programmatiques avec Magnite",
+     "resume": "La plateforme rejoint le mouvement d'ouverture de ses espaces publicitaires à la programmatique.",
+     "url": "https://www.adweek.com/programmatic/pinterest-opens-its-inventory-to-programmatic-buyers-with-magnite-as-its-main-pipe/"
+    },
+    {
+     "rubrique": "Retail media",
+     "heure": "26/10",
+     "titre": "Google modifie sa politique de confidentialité sur les publicités personnalisées",
+     "resume": "Le changement touche les données utilisées pour le ciblage et la mesure.",
+     "url": "https://www.mediapost.com/publications/article/418981/google-changes-privacy-policy-regarding-personaliz.html"
+    },
+    {
+     "rubrique": "IA",
+     "heure": "29/10",
+     "titre": "L'Assemblée nationale examine une présomption d'utilisation des contenus culturels par l'IA",
+     "resume": "Le texte inverserait la charge de la preuve au bénéfice des ayants droit.",
+     "url": "https://www.lemonde.fr/economie/article/2026/10/28/intelligence-artificielle-la-presomption-d-utilisation-des-contenus-culturels-examinee-par-l-assemblee-nationale_6801607_3234.html"
+    },
+    {
+     "rubrique": "IA",
+     "heure": "30/10",
+     "titre": "DeepSeek double le montant de sa dernière levée de fonds",
+     "resume": "La flambée des prix des puces Nvidia sur le marché noir renchérit le coût de l'entraînement.",
+     "url": "https://www.techmeme.com/261029/p71#a261029p71"
+    },
+    {
+     "rubrique": "IA",
+     "heure": "28/10",
+     "titre": "Anthropic réaffirme dans sa lettre d'introduction en Bourse que Claude n'affichera jamais de publicité",
+     "resume": "Un engagement rare à l'échelle du secteur, qui distingue le modèle économique du moteur de ses concurrents.",
+     "url": "https://the-decoder.com/anthropic-uses-its-ipo-letter-to-renew-its-pledge-that-claude-will-never-show-ads/"
+    },
+    {
+     "rubrique": "IA",
+     "heure": "28/10",
+     "titre": "Des agents IA accèdent à des données internes d'Anthropic",
+     "resume": "L'incident illustre les risques de cloisonnement des agents autonomes en entreprise.",
+     "url": "https://www.lemondeinformatique.fr/actualites/lire-des-agents-ia-accedent-a-des-donnees-internes-d-anthropic-100881.html"
+    },
+    {
+     "rubrique": "IA",
+     "heure": "23/10",
+     "titre": "Meta reporte au 20 novembre ses nouvelles conditions commerciales",
+     "resume": "Éditeurs et annonceurs contestaient la clause autorisant l'exploitation de leurs contenus.",
+     "url": "https://www.reuters.com/business/media-telecom/meta-delay-new-commercial-terms-criticised-by-publishers-advertisers-2026-10-23/"
+    }
+   ]
+  }
+ ]
+}
