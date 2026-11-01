@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La veille de Matthieu</title>
+<style>
+:root{--bg:#f7f5f0;--ink:#17181a;--muted:#6b6f76;--line:#dcd7cc;--accent:#b4442b;--card:#fffdf8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.5}
+header{padding:44px 22px 26px;border-bottom:1px solid var(--line)}
+.wrap{max-width:760px;margin:0 auto}
+h1{font-family:Georgia,"Times New Roman",serif;font-size:34px;line-height:1.1;margin:0 0 8px;letter-spacing:-.5px}
+.tagline{color:var(--muted);font-size:15px;margin:0}
+.meta{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.12em;margin-bottom:14px}
+main{padding:26px 22px 60px}
+.controls{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
+button.chip{border:1px solid var(--line);background:transparent;color:var(--ink);padding:6px 12px;border-radius:999px;font-size:13px;cursor:pointer}
+button.chip[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+input[type=search]{width:100%;padding:11px 14px;border:1px solid var(--line);border-radius:10px;background:var(--card);font-size:15px;margin-bottom:22px}
+.edition{margin-bottom:42px}
+.edition h2{font-family:Georgia,serif;font-size:20px;margin:0 0 2px;font-weight:600}
+.edition .note{color:var(--muted);font-size:13px;margin:0 0 18px}
+article{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:12px}
+article .top{display:flex;justify-content:space-between;gap:12px;align-items:baseline;margin-bottom:6px}
+.rub{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-weight:600}
+.when{font-size:12px;color:var(--muted);white-space:nowrap}
+article h3{font-size:16px;line-height:1.35;margin:0 0 6px;font-weight:600}
+article p{margin:0 0 8px;font-size:14px;color:#3d4045}
+article a{color:var(--ink);font-size:13px;text-decoration:none;border-bottom:1px solid var(--accent)}
+footer{border-top:1px solid var(--line);padding:22px;color:var(--muted);font-size:12px}
+.empty{color:var(--muted);font-size:14px;padding:12px 0}
+@media(max-width:480px){h1{font-size:28px}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<div class="meta">Veille quotidienne</div>
+<h1>La veille de Matthieu</h1>
+<p class="tagline">Commerce et distribution, retail media et mesure, mobilité électrique, IA et réglementation. Du lundi au vendredi, à 7h30.</p>
+</div></header>
+<main><div class="wrap">
+<input id="q" type="search" placeholder="Rechercher dans la veille" aria-label="Rechercher">
+<div class="controls" id="chips"></div>
+<div id="editions"></div>
+</div></main>
+<footer><div class="wrap">Sources : LSA, Linéaires, Fevad, Mind Media, JDN, Offremedia, Avere-France, Automobile Propre, Electrive, Next INpact, CNIL. Chaque titre renvoie à la source d'origine.</div></footer>
+<script>
+const RUBS = ["Commerce","Retail media","Mobilité","IA"];
+let EDITIONS = [];
+let filtre = "Tout", q = "";
+fetch("editions.json").then(r=>r.json()).then(d=>{EDITIONS=d.editions||[];renderChips();render();}).catch(()=>{document.getElementById("editions").innerHTML='<p class="empty">La veille arrive.</p>';});
+function renderChips(){
+  const c = document.getElementById("chips"); c.innerHTML="";
+  ["Tout",...RUBS].forEach(r=>{
+    const b=document.createElement("button");b.className="chip";b.textContent=r;b.setAttribute("aria-pressed",String(r===filtre));
+    b.onclick=()=>{filtre=r;renderChips();render();};c.appendChild(b);
+  });
+}
+function esc(s){return String(s).replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));}
+function render(){
+  const root=document.getElementById("editions");root.innerHTML="";
+  EDITIONS.forEach(e=>{
+    const items=(e.items||[]).filter(i=>(filtre==="Tout"||i.rubrique===filtre)&&(!q||(i.titre+" "+(i.resume||"")).toLowerCase().includes(q)));
+    if(!items.length && (q||filtre!=="Tout")) return;
+    const sec=document.createElement("section");sec.className="edition";
+    sec.innerHTML='<h2>'+esc(e.label)+'</h2><p class="note">'+esc(e.note||"")+'</p>';
+    if(!items.length){const p=document.createElement("p");p.className="empty";p.textContent="Rien de nouveau dans cette rubrique.";sec.appendChild(p);}
+    items.forEach(i=>{
+      const a=document.createElement("article");
+      a.innerHTML='<div class="top"><span class="rub">'+esc(i.rubrique)+'</span><span class="when">'+esc(i.heure||"")+'</span></div><h3>'+esc(i.titre)+'</h3>'+(i.resume?'<p>'+esc(i.resume)+'</p>':'')+'<a href="'+esc(i.url)+'" target="_blank" rel="noopener">Lire la source</a>';
+      sec.appendChild(a);
+    });
+    root.appendChild(sec);
+  });
+  if(!root.children.length) root.innerHTML='<p class="empty">Aucun resultat.</p>';
+}
+document.getElementById("q").addEventListener("input",e=>{q=e.target.value.trim().toLowerCase();render();});
+</script>
+</body>
+</html>
