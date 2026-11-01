@@ -26,7 +26,7 @@ article.ed{background:var(--card);border:1px solid var(--line);border-radius:12p
 .edsub{color:var(--muted);font-size:12.5px}
 .edtag{font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:999px;padding:2px 9px;white-space:nowrap}
 .retenir{background:var(--soft);border-left:3px solid var(--accent);padding:13px 15px;border-radius:0 8px 8px 0;margin-bottom:20px}
-.retenir .k,.impact .k,.note .k{display:block;font-size:10.5px;text-transform:uppercase;letter-spacing:.13em;color:var(--accent);margin-bottom:5px}
+.retenir .k,.note .k{display:block;font-size:10.5px;text-transform:uppercase;letter-spacing:.13em;color:var(--accent);margin-bottom:5px}
 .retenir p{margin:0;font-size:15px}
 ol.items{list-style:none;margin:0;padding:0}
 li.it{padding:13px 0;border-top:1px solid var(--line)}
@@ -42,8 +42,6 @@ a.t:hover{color:var(--accent)}
 .tags{margin-top:6px;display:flex;gap:6px;flex-wrap:wrap}
 .tag{font-size:11px;color:var(--muted);background:#f3efe6;border-radius:4px;padding:1px 7px}
 .tag.watch{color:var(--accent);background:#fbece7}
-.impact{border-top:1px solid var(--line);margin-top:18px;padding-top:14px}
-.impact p{margin:0;font-size:14.5px}
 .note{margin-top:16px;border-top:1px dashed var(--line);padding-top:14px}
 .note textarea{width:100%;min-height:52px;border:1px solid var(--line);border-radius:8px;padding:9px 11px;font-family:inherit;font-size:13.5px;background:#fff;resize:vertical}
 .empty{color:var(--muted);font-size:14px}
@@ -108,7 +106,6 @@ function render(){
       out+="</li>";
     });
     out+="</ol>";
-    if(e.impact) out+='<div class="impact"><span class="k">Ce que ça change</span><p>'+esc(e.impact)+"</p></div>";
     out+='<div class="note"><span class="k">Votre note</span><textarea data-key="'+esc(key)+'" placeholder="Ce que vous voulez retenir ou réutiliser en mission"></textarea></div>';
     out+="</article>";
   });
