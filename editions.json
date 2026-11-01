@@ -1,92 +1,119 @@
 {
+ "meta": {
+  "titre": "La veille de Matthieu",
+  "sous_titre": "Retail et retail media, mobilit\u00e9 \u00e9lectrique, IA appliqu\u00e9e",
+  "maj": "2026-11-02"
+ },
+ "watchlist": [
+  "Unlimitail",
+  "Valiuz",
+  "Retailink",
+  "Auchan",
+  "Decathlon",
+  "Leroy Merlin",
+  "Freshmile",
+  "Electra",
+  "Ionity",
+  "Le Plein",
+  "Fevad",
+  "Amazon",
+  "Google",
+  "Apple",
+  "Meta"
+ ],
  "editions": [
   {
    "label": "\u00c9dition du 2 novembre 2026",
-   "note": "\u00c9dition de lancement : les faits marquants de la semaine du 23 au 30 octobre. Les \u00e9ditions suivantes couvrent les derni\u00e8res 24 \u00e0 48 heures.",
+   "type": "quotidien",
+   "periode": "23 \u2013 30 octobre",
+   "a_retenir": "Le retail media des enseignes fran\u00e7aises s'industrialise : Coop\u00e9rative U externalise ses inventaires \u00e0 Unlimitail, Amazon approche 20 milliards de dollars de recettes publicitaires. Au m\u00eame moment, la mesure se fragilise : ATT red\u00e9ploy\u00e9 en France, nouvelle politique de Google sur les annonces personnalis\u00e9es.",
+   "impact": "Pour Le Plein, la preuve d'incr\u00e9mentalit\u00e9 devient plus difficile \u00e0 porter : sans contrefactuel propre, les chiffres d'attribution fournisseur perdent en cr\u00e9dibilit\u00e9. C'est un argument direct pour la r\u00e8gle d'attribution \u00e0 faire signer. Aucun fait marquant en recharge cette semaine : la rubrique Mobilit\u00e9 reste vide plut\u00f4t que remplie.",
    "items": [
     {
      "rubrique": "Commerce",
      "heure": "23/10",
      "titre": "Coop\u00e9rative U confie la commercialisation de ses inventaires digitaux \u00e0 Unlimitail",
      "resume": "L'enseigne externalise son retail media \u00e0 un acteur sp\u00e9cialis\u00e9, signe d'industrialisation du march\u00e9 fran\u00e7ais.",
-     "url": "https://www.unlimitail.com/news/cooperative-u-chooses-unlimitail-frances-leading-omnichannel-retail-media-player"
-    },
-    {
-     "rubrique": "Commerce",
-     "heure": "23/10",
-     "titre": "Shein accepte de payer 100 millions de dollars pour clore une enqu\u00eate de la FTC",
-     "resume": "L'accord porte sur des retards de livraison et des pratiques commerciales contest\u00e9es aux \u00c9tats-Unis.",
-     "url": "https://www.techmeme.com/261023/p11#a261023p11"
-    },
-    {
-     "rubrique": "Commerce",
-     "heure": "29/10",
-     "titre": "La FTC interroge neuf entreprises, dont Delta et Uber, sur la tarification personnalis\u00e9e",
-     "resume": "Le r\u00e9gulateur veut comprendre comment les donn\u00e9es clients alimentent les prix et les compensations.",
-     "url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-launches-personalized-pricing-compensation-inquiry"
+     "url": "https://www.unlimitail.com/news/cooperative-u-chooses-unlimitail-frances-leading-omnichannel-retail-media-player",
+     "acteurs": [
+      "Coop\u00e9rative U",
+      "Unlimitail"
+     ],
+     "dossier": "Retail media des enseignes",
+     "certitude": "fait"
     },
     {
      "rubrique": "Retail media",
      "heure": "30/10",
      "titre": "Les recettes publicitaires d'Amazon approchent 20 milliards de dollars au troisi\u00e8me trimestre",
      "resume": "Amazon mise sur l'IA agentique pour acc\u00e9l\u00e9rer la croissance de son activit\u00e9 publicitaire.",
-     "url": "https://digiday.com/media-buying/amazons-ads-nears-20-billion-in-q3-as-it-bets-on-agentic-ai-to-fuel-further-growth/"
+     "url": "https://digiday.com/media-buying/amazons-ads-nears-20-billion-in-q3-as-it-bets-on-agentic-ai-to-fuel-further-growth/",
+     "acteurs": [
+      "Amazon"
+     ],
+     "dossier": "Retail media des enseignes",
+     "certitude": "fait"
     },
     {
      "rubrique": "Retail media",
      "heure": "28/10",
      "titre": "Apple d\u00e9ploie son nouveau dispositif ATT dans plusieurs pays, dont la France",
      "resume": "Le consentement au suivi publicitaire change de m\u00e9canique, avec des cons\u00e9quences directes sur la mesure des campagnes.",
-     "url": "https://www.mind.eu.com/media/article/apple-deploie-son-nouveau-dispositif-att-dans-plusieurs-pays-dont-la-france/"
-    },
-    {
-     "rubrique": "Retail media",
-     "heure": "26/10",
-     "titre": "Pinterest ouvre son inventaire aux acheteurs programmatiques avec Magnite",
-     "resume": "La plateforme rejoint le mouvement d'ouverture de ses espaces publicitaires \u00e0 la programmatique.",
-     "url": "https://www.adweek.com/programmatic/pinterest-opens-its-inventory-to-programmatic-buyers-with-magnite-as-its-main-pipe/"
+     "url": "https://www.mind.eu.com/media/article/apple-deploie-son-nouveau-dispositif-att-dans-plusieurs-pays-dont-la-france/",
+     "acteurs": [
+      "Apple"
+     ],
+     "dossier": "Mesure publicitaire",
+     "certitude": "fait"
     },
     {
      "rubrique": "Retail media",
      "heure": "26/10",
      "titre": "Google modifie sa politique de confidentialit\u00e9 sur les publicit\u00e9s personnalis\u00e9es",
      "resume": "Le changement touche les donn\u00e9es utilis\u00e9es pour le ciblage et la mesure.",
-     "url": "https://www.mediapost.com/publications/article/418981/google-changes-privacy-policy-regarding-personaliz.html"
+     "url": "https://www.mediapost.com/publications/article/418981/google-changes-privacy-policy-regarding-personaliz.html",
+     "acteurs": [
+      "Google"
+     ],
+     "dossier": "Mesure publicitaire",
+     "certitude": "fait"
     },
     {
      "rubrique": "IA",
      "heure": "29/10",
      "titre": "L'Assembl\u00e9e nationale examine une pr\u00e9somption d'utilisation des contenus culturels par l'IA",
      "resume": "Le texte inverserait la charge de la preuve au b\u00e9n\u00e9fice des ayants droit.",
-     "url": "https://www.lemonde.fr/economie/article/2026/10/28/intelligence-artificielle-la-presomption-d-utilisation-des-contenus-culturels-examinee-par-l-assemblee-nationale_6801607_3234.html"
-    },
-    {
-     "rubrique": "IA",
-     "heure": "30/10",
-     "titre": "DeepSeek double le montant de sa derni\u00e8re lev\u00e9e de fonds",
-     "resume": "La flamb\u00e9e des prix des puces Nvidia sur le march\u00e9 noir rench\u00e9rit le co\u00fbt de l'entra\u00eenement.",
-     "url": "https://www.techmeme.com/261029/p71#a261029p71"
-    },
-    {
-     "rubrique": "IA",
-     "heure": "28/10",
-     "titre": "Anthropic r\u00e9affirme dans sa lettre d'introduction en Bourse que Claude n'affichera jamais de publicit\u00e9",
-     "resume": "Un engagement rare \u00e0 l'\u00e9chelle du secteur, qui distingue le mod\u00e8le \u00e9conomique du moteur de ses concurrents.",
-     "url": "https://the-decoder.com/anthropic-uses-its-ipo-letter-to-renew-its-pledge-that-claude-will-never-show-ads/"
-    },
-    {
-     "rubrique": "IA",
-     "heure": "28/10",
-     "titre": "Des agents IA acc\u00e8dent \u00e0 des donn\u00e9es internes d'Anthropic",
-     "resume": "L'incident illustre les risques de cloisonnement des agents autonomes en entreprise.",
-     "url": "https://www.lemondeinformatique.fr/actualites/lire-des-agents-ia-accedent-a-des-donnees-internes-d-anthropic-100881.html"
+     "url": "https://www.lemonde.fr/economie/article/2026/10/28/intelligence-artificielle-la-presomption-d-utilisation-des-contenus-culturels-examinee-par-l-assemblee-nationale_6801607_3234.html",
+     "acteurs": [
+      "Assembl\u00e9e nationale"
+     ],
+     "dossier": "Contenus et mod\u00e8les",
+     "certitude": "d\u00e9claration"
     },
     {
      "rubrique": "IA",
      "heure": "23/10",
      "titre": "Meta reporte au 20 novembre ses nouvelles conditions commerciales",
      "resume": "\u00c9diteurs et annonceurs contestaient la clause autorisant l'exploitation de leurs contenus.",
-     "url": "https://www.reuters.com/business/media-telecom/meta-delay-new-commercial-terms-criticised-by-publishers-advertisers-2026-10-23/"
+     "url": "https://www.reuters.com/business/media-telecom/meta-delay-new-commercial-terms-criticised-by-publishers-advertisers-2026-10-23/",
+     "acteurs": [
+      "Meta"
+     ],
+     "dossier": "Contenus et mod\u00e8les",
+     "certitude": "d\u00e9claration"
+    },
+    {
+     "rubrique": "Commerce",
+     "heure": "23/10",
+     "titre": "Shein accepte de payer 100 millions de dollars pour clore une enqu\u00eate de la FTC",
+     "resume": "L'accord porte sur des retards de livraison et des pratiques commerciales contest\u00e9es aux \u00c9tats-Unis.",
+     "url": "https://www.techmeme.com/261023/p11#a261023p11",
+     "acteurs": [
+      "Shein",
+      "FTC"
+     ],
+     "dossier": "R\u00e9gulation du commerce",
+     "certitude": "fait"
     }
    ]
   }
