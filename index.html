@@ -37,16 +37,16 @@ footer{border-top:1px solid var(--line);padding:22px;color:var(--muted);font-siz
 <header><div class="wrap">
 <div class="meta">Veille quotidienne</div>
 <h1>La veille de Matthieu</h1>
-<p class="tagline">Commerce et distribution, retail media et mesure, mobilité électrique, IA et réglementation. Du lundi au vendredi, à 7h30.</p>
+<p class="tagline">Commerce et distribution, retail media et mesure, mobilitÃ© Ã©lectrique, IA et rÃ©glementation. Du lundi au vendredi, Ã  7h30.</p>
 </div></header>
 <main><div class="wrap">
 <input id="q" type="search" placeholder="Rechercher dans la veille" aria-label="Rechercher">
 <div class="controls" id="chips"></div>
 <div id="editions"></div>
 </div></main>
-<footer><div class="wrap">Sources : LSA, Linéaires, Fevad, Mind Media, JDN, Offremedia, Avere-France, Automobile Propre, Electrive, Next INpact, CNIL. Chaque titre renvoie à la source d'origine.</div></footer>
+<footer><div class="wrap">Sources : LSA, LinÃ©aires, Fevad, Mind Media, JDN, Offremedia, Avere-France, Automobile Propre, Electrive, Next INpact, CNIL. Chaque titre renvoie Ã  la source d'origine.</div></footer>
 <script>
-const RUBS = ["Commerce","Retail media","Mobilité","IA"];
+const RUBS = ["Commerce","Retail media","MobilitÃ©","IA"];
 let EDITIONS = [];
 let filtre = "Tout", q = "";
 fetch("editions.json").then(r=>r.json()).then(d=>{EDITIONS=d.editions||[];renderChips();render();}).catch(()=>{document.getElementById("editions").innerHTML='<p class="empty">La veille arrive.</p>';});
