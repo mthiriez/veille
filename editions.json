@@ -1,6 +1,90 @@
 {
  "editions": [
   {
+   "label": "\u00c9dition du 4 novembre 2026",
+   "type": "quotidien",
+   "periode": "3 \u2013 4 novembre",
+   "a_retenir": "GiFi est plac\u00e9 en redressement judiciaire par le tribunal de commerce de Toulouse, avec six mois d'observation et une audience de suivi au 8 janvier. Electra reprend les 47 sites de recharge rapide de Mercedes-Benz en Europe et Intersport confie la commercialisation de trois \u00e9crans publicitaires par magasin \u00e0 M\u00e9diaperformances.",
+   "items": [
+    {
+     "rubrique": "Commerce",
+     "dossier": "Commerce et enseignes",
+     "heure": "03/11",
+     "titre": "GiFi plac\u00e9 en redressement judiciaire avec six mois d'observation",
+     "resume": "Le tribunal de commerce de Toulouse ouvre la proc\u00e9dure \u00e0 la demande du groupe, qui emploie 6 000 personnes dans plus de 500 magasins ; l'exc\u00e9dent brut d'exploitation 2025 ressort \u00e0 -100 millions d'euros contre 9 attendus, apr\u00e8s un changement de syst\u00e8me d'information rat\u00e9 en 2023.",
+     "url": "https://www.franceinfo.fr/economie/le-groupe-gifi-est-place-en-redressement-judiciaire_8265437.html",
+     "acteurs": [
+      "GiFi"
+     ],
+     "certitude": "fait"
+    },
+    {
+     "rubrique": "Retail media",
+     "dossier": "Retail media des enseignes",
+     "heure": "03/11",
+     "titre": "Intersport confie son retail media en magasin \u00e0 M\u00e9diaperformances",
+     "resume": "Le r\u00e9seau d'environ 1 000 magasins d\u00e9ploie trois \u00e9crans num\u00e9riques par point de vente, dans les espaces running, football et cycles ainsi que pr\u00e8s des cabines d'essayage ; M\u00e9diaperformances en assure le d\u00e9ploiement et la commercialisation, une premi\u00e8re dans le sport pour la r\u00e9gie.",
+     "url": "https://fr.themedialeader.com/intersport-sappuie-sur-mediaperformances-pour-son-retail-media/",
+     "acteurs": [
+      "Intersport",
+      "M\u00e9diaperformances"
+     ],
+     "certitude": "fait"
+    },
+    {
+     "rubrique": "Mesure",
+     "dossier": "Mesure publicitaire",
+     "heure": "03/11",
+     "titre": "Le manque de mesure devient le premier frein \u00e0 l'investissement en retail media en Europe",
+     "resume": "Dans la troisi\u00e8me enqu\u00eate d'IAB Europe, 61 % des acheteurs citent l'insuffisance du reporting et 58 % la disponibilit\u00e9 des donn\u00e9es, contre 31 % un an plus t\u00f4t ; le ROAS n'est plus r\u00e9clam\u00e9 que par 49 % d'entre eux, contre 89 % en 2025, au profit du reporting unifi\u00e9 en ligne et en magasin.",
+     "url": "https://www.exchangewire.com/blog/2026/11/03/iab-europe-reveals-growing-retail-media-measurement-gap/",
+     "acteurs": [
+      "IAB Europe"
+     ],
+     "certitude": "estimation"
+    },
+    {
+     "rubrique": "Mesure",
+     "dossier": "Mesure publicitaire",
+     "heure": "03/11",
+     "titre": "M\u00e9diam\u00e9trie retient Integral Ad Science pour la mesure crois\u00e9e TV-vid\u00e9o",
+     "resume": "IAS devient partenaire exclusif de MediaReach pour fournir les donn\u00e9es de visibilit\u00e9 et de compl\u00e9tion, d\u00e9clin\u00e9es en six niveaux de qualit\u00e9 d'exposition ; l'objectif est de rendre comparables les performances des campagnes en TV lin\u00e9aire et en vid\u00e9o digitale.",
+     "url": "https://www.mediametrie.fr/fr/communique/mediametrie-et-integral-ad-science-ias-nouent-un-partenariat-strategique-pour",
+     "acteurs": [
+      "M\u00e9diam\u00e9trie",
+      "Integral Ad Science"
+     ],
+     "certitude": "fait"
+    },
+    {
+     "rubrique": "Recharge",
+     "dossier": "Recharge et \u00e9nergie",
+     "heure": "03/11",
+     "titre": "Electra reprend les 47 sites de recharge rapide de Mercedes-Benz en Europe",
+     "resume": "La cession, d\u00e9cid\u00e9e en juillet et sign\u00e9e le 3 ao\u00fbt, porte sur 374 points de recharge, dont 31 sites en Allemagne et 6 en Autriche ; Electra exploite d\u00e9sormais plus de 800 sites et 5 000 points, vise 15 000 points en 2030, et accorde des tarifs pr\u00e9f\u00e9rentiels aux clients Mercedes.",
+     "url": "https://www.electrive.com/2026/11/03/electra-takes-over-mercedes-benz-charging-hubs-in-europe/",
+     "acteurs": [
+      "Electra",
+      "Mercedes-Benz"
+     ],
+     "certitude": "fait"
+    },
+    {
+     "rubrique": "Contenus",
+     "dossier": "Contenus et mod\u00e8les",
+     "heure": "03/11",
+     "titre": "Magnite et PubMatic deviennent places d'achat des publicit\u00e9s ChatGPT",
+     "resume": "Les deux plateformes permettent aux annonceurs de fixer budgets, ench\u00e8res et cr\u00e9ations pour l'inventaire publicitaire non vendu de ChatGPT, OpenAI conservant la d\u00e9cision de placement et de diffusion ; les emplacements restent limit\u00e9s aux offres gratuite et Go.",
+     "url": "https://www.thekeyword.co/news/chatgpt-ads-programmatic-magnite-pubmatic",
+     "acteurs": [
+      "OpenAI",
+      "Magnite"
+     ],
+     "certitude": "d\u00e9claration"
+    }
+   ]
+  },
+  {
    "a_retenir": "Le BHV est plac\u00e9 en redressement judiciaire avec une p\u00e9riode d'observation de six mois, tandis que Plesio finalise la r\u00e9partition du capital du r\u00e9seau Franprix avec la famille Zouari. Depuis le 1er novembre, les petits colis import\u00e9s supportent 5 euros de frais par cat\u00e9gorie d'articles, et Electra porte \u00e0 0,34 euro le kWh le tarif de ses anciens abonn\u00e9s au 2 d\u00e9cembre.",
    "items": [
     {
@@ -277,7 +361,7 @@
   }
  ],
  "meta": {
-  "maj": "2026-11-03",
+  "maj": "2026-11-04",
   "sous_titre": "Retail et retail media, mobilit\u00e9 \u00e9lectrique, IA appliqu\u00e9e",
   "titre": "La veille de Matthieu"
  },
